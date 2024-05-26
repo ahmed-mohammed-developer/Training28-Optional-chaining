@@ -59,6 +59,23 @@ const fullName = user => {
 };
 console.log(fullName({info: {name: "ALEX"}})); // "alex"
 
+/*
+function is_same(name1, name2){
+  return name1 === name2;
+}
+*/
+function is_same(name1, name2) {
+    // write your code here
+      if (name1===name2){
+        return "متشابهين";
+      } 
+      return "غير متشابهين";
+}
+console.log(is_same("a", "aآ"));
 
 
-
+function isEmpty(strParam) {
+  // write your code here
+  return strParam === "";
+}
+console.log(isEmpty(""));
